@@ -1,4 +1,5 @@
 import React from "react"
+import logo from "../images/University-of-Cambridge-Logo-White-01.svg"
 
 function PlFooter() {
   return (
@@ -7,11 +8,10 @@ function PlFooter() {
         <div className="campl-column3 campl-footer-navigation">
           <div className="campl-content-container campl-footer-logo">
             <img
+              src={logo}
               alt="University of Cambridge"
-              src="<?php print $base_theme_path; ?>/images/interface/main-logo-small.png"
-              className="campl-scale-with-grid"
+              className="cam-logo"
             />
-
             <p>&#169; 2020 University of Cambridge</p>
             <ul className="campl-unstyled-list campl-global-footer-links">
               <li>
