@@ -318,7 +318,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"],
-.campl-uneditable-input {display: inline-block;height: 18px;padding: 4px;margin-bottom: 9px; -webkit-border-radius: 0;}
+.campl-uneditable-input {display: inline-block;height: 18px;padding: 4px;margin-bottom: 9px; border-radius: 0;}
 
 textarea { overflow: auto; vertical-align: top; resize: vertical;height: auto; }
 
@@ -388,7 +388,7 @@ input[type="checkbox"][readonly] {background-color: transparent;}
 
 input[type="submit"],input[type="reset"],input[type="button"],input[type="image"],input[type="radio"],input[type="checkbox"] {width: auto;}
 
-input[type="image"] { display: inline; vertical-align: middle; margin-bottom: 5px; }
+input[type="image"] { display: inline; vertical-align: middle }
 
 /* select menus */
 select,
@@ -600,10 +600,10 @@ body{margin:0;padding:0; background:#000;width:100%;}
 
 
 /* Contextual Search */
-.campl-search-input{background-color: #FFFFFF;border: 0; display: inline-block; -moz-box-sizing: border-box;width: 100%;position: relative;margin-bottom: 0; height: 42px;min-height:42px;}
+.campl-search-input{background-color: #FFFFFF;border: 0; display: inline-block; box-sizing: border-box;width: 100%;position: relative;margin-bottom: 0; height: 42px;min-height:42px;}
 .lt-ie8 .campl-search-input{margin-left: 0;}
 .campl-search-input input{border:0;padding:10px 8px 8px;vertical-align: middle;width:75%;float:left;margin-bottom:0}
-.campl-search-input input.campl-search-submit{width:42px;padding:0;float:right;height:43px;-webkit-border-radius: 0;margin-right:0;float:right;margin-right:-1px}
+.campl-search-input input.campl-search-submit{width:42px;padding:0;float:right;height:43px; border-radius: 0;margin-right:0;float:right;margin-right:-1px}
 
 /* Header search */
 .campl-site-search .campl-search-input{height: 32px;min-height:32px;background-color: #343434;}
@@ -700,7 +700,7 @@ body{margin:0;padding:0; background:#000;width:100%;}
 .js .campl-local-navigation{position:relative;z-index:13}
 .js .campl-local-navigation .campl-local-navigation-container { margin: -1px 0 0 0 ;width: auto;}
 .js .campl-local-navigation li.campl-back-link, .js .campl-local-navigation li.campl-back-link a{display: none;font-size: 0;height: 0;visibility: hidden;position:absolute}
-.js .campl-local-navigation li { display: inline;float: left;margin:0 0 -1px 0}
+.js .campl-local-navigation li { display: inline; margin:0 0 -1px 0}
 .js .campl-local-navigation li li{margin:0}
 .js .campl-local-navigation li.campl-title{display:none}
 .lt-ie8 .campl-local-navigation li {margin:0}
