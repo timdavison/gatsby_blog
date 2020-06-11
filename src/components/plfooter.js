@@ -12,7 +12,7 @@ function PlFooter() {
               alt="University of Cambridge"
               className="cam-logo"
             />
-            <p>&#169; 2020 University of Cambridge</p>
+            <p>&#169; {new Date().getFullYear()} University of Cambridge</p>
             <ul className="campl-unstyled-list campl-global-footer-links">
               <li>
                 <a href="http://www.cam.ac.uk/university-a-z">University A-Z</a>
