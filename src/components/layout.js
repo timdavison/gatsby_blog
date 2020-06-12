@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import PlFooter from "./plfooter"
+import PlHeader from "./plheader"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -26,6 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <PlHeader />
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{

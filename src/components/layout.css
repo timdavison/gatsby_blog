@@ -582,9 +582,8 @@ body{margin:0;padding:0; background:#000;width:100%;}
 /*.js .campl-open-menu{background:url(../images/interface/btn-open-menu-sprite.png) no-repeat 0 0 ;width:32px;height:33px;float:left;display:none} */
 .js .campl-open-menu:focus, .js .campl-open-menu:hover, .js .campl-open-menu:active{background-position:0 -33px}
 
-.campl-main-logo{padding:15px;display:block;float:left}
-.campl-main-logo:visited{text-decoration:none;border:0}
-.campl-homepage-header .campl-main-logo{display:none}
+.campl-main-logo .cam-logo {padding:1em; max-width:14em}
+.campl-main-logo:visited {text-decoration:none;border:0}
 
 .campl-search-drawer{border-top:1px solid #3f3f3f;position:relative;z-index:5}
 
