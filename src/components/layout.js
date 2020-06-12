@@ -10,6 +10,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import PlFooter from "./plfooter"
 import PlHeader from "./plheader"
+import SiteTitle from "./SiteTitle"
+import SiteNav from "./SiteNav"
+import PageTitle from "./PageTitle"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -26,6 +29,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <PlHeader />
+      <SiteTitle />
+      <SiteNav />
+      <PageTitle />
       <div id="main" className="campl-row campl-content campl-recessed-content">
         {children}
       </div>

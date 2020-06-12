@@ -1,6 +1,6 @@
 import React from "react"
 
-function Megamenu() {
+function MegaMenu() {
   return (
     <div className="campl-row campl-global-navigation-drawer">
       <div className="campl-wrap clearfix">
@@ -221,4 +221,4 @@ function Megamenu() {
   )
 }
 
-export default Megamenu
+export default MegaMenu
