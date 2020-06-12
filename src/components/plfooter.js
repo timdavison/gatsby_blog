@@ -48,7 +48,7 @@ function PlFooter() {
                   Study at Cambridge
                 </a>
               </h3>
-              <ul className="campl-unstyled-list">
+              <ul className="campl-unstyled-list campl-page-children">
                 <li>
                   <a href="http://www.study.cam.ac.uk/undergraduate/">
                     Undergraduate
@@ -122,7 +122,7 @@ function PlFooter() {
             <h3>
               <a href="http://www.cam.ac.uk/research">Research at Cambridge</a>
             </h3>
-            <ul className="campl-unstyled-list">
+            <ul className="campl-unstyled-list campl-page-children">
               <li>
                 <a href="http://www.cam.ac.uk/research/news">News</a>
               </li>
