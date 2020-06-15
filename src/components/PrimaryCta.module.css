@@ -5,7 +5,7 @@
   color:#fff!important;
   font-family:"myriad-pro-n3", "myriad-pro", myriad, verdana, arial, sans-serif;font-weight:300;
   display:inline-block;
-  background:#171717 100% 50% no-repeat;
+  background:#171717 url(../../static/bg-primary-cta-arrow.png) 100% 50% no-repeat;
   padding:5px 25px 5px 10px;
   border:0;
   text-shadow: none;
@@ -14,14 +14,14 @@
 .camplPrimaryCta:link, 
 .camplPrimaryCta:visited {
   color:#f8f8f8;
-  background:#171717 100% 50% no-repeat;border:0;
+  background:#171717 url(../../static/bg-primary-cta-arrow.png) 100% 50% no-repeat;border:0;
 }
 
 .camplPrimaryCta:focus, 
 .camplPrimaryCta:hover, 
 .camplPrimaryCta:active {
   color:#f8f8f8;
-  background:#454545 100% 50% no-repeat;
+  background:#454545 url(../../static/bg-primary-cta-arrow-over.png) 100% 50% no-repeat;
   border:0;
   text-decoration:none;
 }

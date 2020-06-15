@@ -13,6 +13,7 @@ import PlHeader from "./plheader"
 import SiteTitle from "./SiteTitle"
 import SiteNav from "./SiteNav"
 import PageTitle from "./PageTitle"
+import PrimaryCta from "./PrimaryCta"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -30,6 +31,7 @@ const Layout = ({ children }) => {
     <>
       <PlHeader />
       <SiteTitle />
+      <PrimaryCta url="/" text="Primary CTA test" />
       <SiteNav />
       <PageTitle />
       <div id="main" className="campl-row campl-content campl-recessed-content">
