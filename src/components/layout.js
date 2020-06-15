@@ -27,15 +27,28 @@ const Layout = ({ children }) => {
     }
   `)
 
+  console.log(data)
+
   return (
     <>
       <PlHeader />
-      <SiteTitle />
+      <SiteTitle titleText={data.site.siteMetadata.title} />
       <PrimaryCta url="/" text="Primary CTA test" />
       <SiteNav />
       <PageTitle />
+
       <div id="main" className="campl-row campl-content campl-recessed-content">
-        {children}
+        <div className="campl-wrap clearfix">
+          <div className="campl-column3">
+            <h2> Local nav</h2>
+          </div>
+          <div className="campl-column6  campl-main-content" id="content">
+            {children}
+          </div>
+          <div className="campl-column3 campl-secondary-content">
+            <h2>Sidebar stuff</h2>
+          </div>
+        </div>
       </div>
       <PlFooter />
     </>
