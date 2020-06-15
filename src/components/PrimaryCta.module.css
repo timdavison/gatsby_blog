@@ -1,0 +1,34 @@
+
+.camplPrimaryCta{
+  font-size:14px;
+  line-height: 20px;
+  color:#fff!important;
+  font-family:"myriad-pro-n3", "myriad-pro", myriad, verdana, arial, sans-serif;font-weight:300;
+  display:inline-block;
+  background:#171717 100% 50% no-repeat;
+  padding:5px 25px 5px 10px;
+  border:0;
+  text-shadow: none;
+}
+
+.camplPrimaryCta:link, 
+.camplPrimaryCta:visited {
+  color:#f8f8f8;
+  background:#171717 100% 50% no-repeat;border:0;
+}
+
+.camplPrimaryCta:focus, 
+.camplPrimaryCta:hover, 
+.camplPrimaryCta:active {
+  color:#f8f8f8;
+  background:#454545 100% 50% no-repeat;
+  border:0;
+  text-decoration:none;
+}
+
+/* anything smaller than tablet portrait ie. mobile devices */
+@media (max-width: 767px) {
+  .camplPrimaryCta {
+    font-size:18px; 
+    line-height: 24px}
+}
