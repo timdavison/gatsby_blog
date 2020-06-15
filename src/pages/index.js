@@ -6,8 +6,12 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
 
+const pageData = {
+  titleText: "List of Posts.",
+}
+
 const IndexPage = ({ data }) => (
-  <Layout>
+  <Layout page={pageData}>
     <SEO title="Home" />
     <h1>Hi there Tim.</h1>
     <p>Welcome to your new Gatsby site.</p>

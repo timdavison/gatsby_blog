@@ -16,7 +16,7 @@ import PageTitle from "./PageTitle"
 import PrimaryCta from "./PrimaryCta"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, page }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -27,15 +27,13 @@ const Layout = ({ children }) => {
     }
   `)
 
-  console.log(data)
-
   return (
     <>
       <PlHeader />
       <SiteTitle titleText={data.site.siteMetadata.title} />
       <PrimaryCta url="/" text="Primary CTA test" />
       <SiteNav />
-      <PageTitle />
+      <PageTitle titleText={page.titleText} />
 
       <div id="main" className="campl-row campl-content campl-recessed-content">
         <div className="campl-wrap clearfix">

@@ -1,18 +1,28 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Img from 'gatsby-image'
+import Img from "gatsby-image"
 
 export default ({ data }) => {
   const post = data.nodeArticle
+  const pageData = {
+    titleText: post.title,
+  }
   return (
-    <Layout>
+    <Layout page={pageData}>
       <div>
-        <h1>{ post.title }</h1>
-        <small><em>{ Date(post.created) }</em></small>
-        <div style={{ maxWidth: `900px`, marginBottom: `1.45rem`, width: `100%` }}>
-          <Img fluid={ post.relationships.field_image.localFile.childImageSharp.fluid } />
+        <div
+          style={{ maxWidth: `900px`, marginBottom: `1.45rem`, width: `100%` }}
+        >
+          <Img
+            fluid={
+              post.relationships.field_image.localFile.childImageSharp.fluid
+            }
+          />
         </div>
+        <small>
+          <em>{Date(post.created)}</em>
+        </small>
         <div dangerouslySetInnerHTML={{ __html: post.body.value }}></div>
       </div>
     </Layout>
