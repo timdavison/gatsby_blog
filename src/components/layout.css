@@ -156,7 +156,7 @@ h2, h3, h4, h5, h6, .campl-global-navigation, .campl-global-navigation-header-co
 
 /* Light	"myriad-pro"	300	normal */
 h1, .campl-page-header h1, .campl-page-sub-title h2, .campl-secondary-content h2, .campl-main-content-sub-column h2, .campl-slide-caption-txt, .campl-carousel-content p,
-.campl-page-title, .campl-sub-title, legend, .campl-primary-cta, .campl-homepage-content h2, .campl-highlight-date, .campl-light-heading{font-family:"myriad-pro-n3", "myriad-pro", myriad, verdana, arial, sans-serif;font-weight:300;}
+.campl-page-title, .campl-sub-title, legend, .campl-homepage-content h2, .campl-highlight-date, .campl-light-heading{font-family:"myriad-pro-n3", "myriad-pro", myriad, verdana, arial, sans-serif;font-weight:300;}
 
 
 /* Regular verdana bold */
@@ -177,7 +177,7 @@ h2, .campl-slide-caption-txt,  legend,  .campl-load-more-btn, blockquote{font-si
 .campl-nav-tabs, .campl-nav-pills {font-size: 19px;margin-bottom: 18px;font-weight: 200;line-height: 25px;}
 h3, .campl-current-date, .campl-highlight-date, .campl-promo-teaser .campl-teaser-title{font-size: 17px;line-height: 23px;}
 h4, .campl-branding-title{font-size:15px;line-height: 21px;}
-h5, .campl-tertiary-navigation, .campl-enlarged-text, .campl-teaser-title,  .campl-primary-cta, .campl-btn,
+h5, .campl-tertiary-navigation, .campl-enlarged-text, .campl-teaser-title,  .campl-btn,
 .campl-local-footer h3, .campl-global-footer h3, .campl-desktop-list-layout, .campl-global-navigation,.campl-global-navigation-header-container,
 .campl-global-navigation-container, .campl-local-navigation {font-size:14px;line-height: 20px;}
 h6, cite{font-size:13px;line-height: 19px}
@@ -224,10 +224,6 @@ a:active { color: #0072cf; text-decoration:none;border-bottom:0}
 
 .campl-btn{background:#e4e4e4;border:1px solid #999;padding:4px 10px 4px 10px;}
 /*
-.campl-primary-cta{display:inline-block;background:#171717 url(../images/interface/bg-primary-cta-arrow.png) 100% 50% no-repeat;color:#fff;padding:5px 25px 5px 10px;border:0;text-shadow: none}
-.campl-primary-cta:link, .campl-primary-cta:visited{color:#f8f8f8;background:#171717 url(../images/interface/bg-primary-cta-arrow.png) 100% 50% no-repeat;border:0}
-.campl-primary-cta:focus, .campl-primary-cta:hover, .campl-primary-cta:active{color:#f8f8f8;background:#454545 url(../images/interface/bg-primary-cta-arrow-over.png) 100% 50% no-repeat;border:0;text-decoration:none}
-
 .campl-secondary-cta{background:url(../images/interface/bg-secondary-cta-arrow.png) 100% 50% no-repeat; display:inline-block;padding-right:10px }
 */
 
@@ -1142,7 +1138,7 @@ caption{background:#fff;padding:5px 0}
 	h3{font-size: 22px;line-height: 28px;}
 	h4,.campl-branding-title, .campl-sub-section-page .campl-page-header h1,
  	.campl-sub-section-page .campl-page-title {font-size:20px;line-height: 26px}
-	h5, .campl-vertical-breadcrumb, .campl-enlarged-text, .campl-teaser-title,  .campl-primary-cta, .btn,
+	h5, .campl-vertical-breadcrumb, .campl-enlarged-text, .campl-teaser-title, .btn,
 	.campl-local-footer h3, .campl-global-footer h3, .campl-desktop-list-layout, .campl-local-navigation {font-size:18px;line-height: 24px}
 	h6, .campl-simple-heading, .campl-listing-title, .campl-news-listing .campl-datestamp, .campl-current-date{font-size:17px;line-height: 23px}
  	.campl-nav-tabs, .campl-nav-pills{font-size:17px;line-height: 20px}
@@ -2544,7 +2540,6 @@ table th{border-bottom:#e4e4e4 1px solid}
 
 	/* style elements back for legibility, add a bg back into the homepage teaser campl-topic to make legible */
 	.campl-topic{background:#fff!important}
-	.campl-primary-cta{color:#fff!important}
 
 	/* add background to transparent graphics to make legible */
 	.campl-co-branding-logo{padding:5px;background:#000!important;display:block;float:none}
